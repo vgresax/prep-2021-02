@@ -16,4 +16,4 @@ clang-tidy project/**/* -- -Iproject/include
 print_header "RUN cpplint.py"
 python3 ./linters/cpplint/cpplint.py --extensions=c project/include/* project/src/*
 
-print_header "SUCCESS"
+print_header "SUCCESS"   
